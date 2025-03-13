@@ -1,0 +1,104 @@
+body{
+    font-family: Aerial;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* background: #f4f4f4; */
+    border-radius: 5px;
+    /* background: #fff; */
+    padding: 20px;
+    /* border-radius: 5px; */
+    /* margin: 20px 0; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #444;
+}
+
+.error{
+    color: red;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #f0f0f0;
+}
+
+.success{
+    color: green;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #f0f0f0;
+}
+
+h2{
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px 0;
+}
+
+p{
+    color: #676767;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* New style for the output boundary */
+.output-container{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
